@@ -90,7 +90,7 @@ public class GemInterface : MonoBehaviour
         // Check validity of second gem selected
         gem2 = gem;
         // Get a copy of the table of gem types
-        int[,] table = board.GetTable();
+        int[,] table = board.GetTableCopy();
         // Swap gems and check validity
         int x1, y1, x2, y2;
         x1 = gem1.GetCol();

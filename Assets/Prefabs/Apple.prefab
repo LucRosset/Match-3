@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6825465917865573990}
   - component: {fileID: 3066157589546933187}
   - component: {fileID: 511604144166539593}
-  - component: {fileID: 7896058158840610685}
   - component: {fileID: 8182061816561834525}
+  - component: {fileID: 7896058158840610685}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Gems
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -524663117
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53c6bbaee7e10624e9136d37b0e1d4ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -132,21 +132,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7896058158840610685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7694155206639162132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c7cc60266b94e84089ffc515ec7d864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shade: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  gemType: 2
-  fallSpeed: 10
 --- !u!95 &8182061816561834525
 Animator:
   serializedVersion: 3
@@ -166,3 +151,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7896058158840610685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694155206639162132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7cc60266b94e84089ffc515ec7d864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shade: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  gemType: 2
+  fallSpeed: 10

@@ -282,6 +282,8 @@ GameObject:
   - component: {fileID: 199967826}
   - component: {fileID: 199967827}
   - component: {fileID: 199967828}
+  - component: {fileID: 199967830}
+  - component: {fileID: 199967829}
   m_Layer: 0
   m_Name: Game Board
   m_TagString: Untagged
@@ -498,6 +500,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &199967829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199967823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253dde8ba4b91604bb6964aac2a4b1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemPFs:
+  - {fileID: 4533590454581049367, guid: c95cc5681a626e449999a5413f4c0b54, type: 3}
+  - {fileID: 7896058158840610685, guid: 4e6dbd0140020df4784d42482ea777f3, type: 3}
+  - {fileID: 658873680950608003, guid: e2222d6a8f7a323409787a7f67463f6f, type: 3}
+  - {fileID: 1980154468069551238, guid: 532ff1d27e2c1d445a34735ca163a0de, type: 3}
+  - {fileID: 3245304631149017340, guid: 4d5c27171c691da478a67997c9bb6138, type: 3}
+  - {fileID: 7173899653803926996, guid: aabf97da17b27ec44b56b3e10a825c2f, type: 3}
+  - {fileID: 8072175310640975869, guid: a6a2f6161ba62724d9cfd67915fc73a4, type: 3}
+--- !u!114 &199967830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199967823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bc26317a4d25e48a595883bbbbeb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &256600088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,11 +2746,11 @@ RectTransform:
   m_Father: {fileID: 1673692251}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.75, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.5, y: 1}
   m_SizeDelta: {x: 1.5, y: 1}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1408760136
 MonoBehaviour:
   m_ObjectHideFlags: 0

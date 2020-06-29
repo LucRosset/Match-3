@@ -1,0 +1,7 @@
+Match-3.sln
+*.csproj
+Library
+Temp
+Logs
+obj
+.vs
