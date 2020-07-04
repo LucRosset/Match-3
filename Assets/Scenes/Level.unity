@@ -367,14 +367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad0692c1ba46f047ad089475a5e7d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gemPFs:
-  - {fileID: 4533590454581049367, guid: c95cc5681a626e449999a5413f4c0b54, type: 3}
-  - {fileID: 7896058158840610685, guid: 4e6dbd0140020df4784d42482ea777f3, type: 3}
-  - {fileID: 658873680950608003, guid: e2222d6a8f7a323409787a7f67463f6f, type: 3}
-  - {fileID: 1980154468069551238, guid: 532ff1d27e2c1d445a34735ca163a0de, type: 3}
-  - {fileID: 3245304631149017340, guid: 4d5c27171c691da478a67997c9bb6138, type: 3}
-  - {fileID: 7173899653803926996, guid: aabf97da17b27ec44b56b3e10a825c2f, type: 3}
-  - {fileID: 8072175310640975869, guid: a6a2f6161ba62724d9cfd67915fc73a4, type: 3}
   basePoints: 10
   scorePF: {fileID: 4603735398845068335, guid: a9c2ced53729dcb468d79bbdcfa02b20, type: 3}
   destroySound: {fileID: 8300000, guid: fcf5cf55d65b0204caf57bf56710deba, type: 3}
@@ -414,7 +406,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fcf5cf55d65b0204caf57bf56710deba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -429,7 +421,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -514,7 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gemPFs:
   - {fileID: 4533590454581049367, guid: c95cc5681a626e449999a5413f4c0b54, type: 3}
-  - {fileID: 7896058158840610685, guid: 4e6dbd0140020df4784d42482ea777f3, type: 3}
+  - {fileID: 1980154468069551238, guid: 1c14d8d27f6ac054cb721cf288a8b20c, type: 3}
   - {fileID: 658873680950608003, guid: e2222d6a8f7a323409787a7f67463f6f, type: 3}
   - {fileID: 1980154468069551238, guid: 532ff1d27e2c1d445a34735ca163a0de, type: 3}
   - {fileID: 3245304631149017340, guid: 4d5c27171c691da478a67997c9bb6138, type: 3}

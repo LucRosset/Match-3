@@ -22,10 +22,15 @@ public class GemDestroyer : MonoBehaviour
         List<Gem>[] gemColumns = board.GetGemColumns();
         int[,] gemTable = board.GetGemTable();
         List<int[]> gemsToDestroy = board.GetGemsToDestroy();
+        List<Gem> destroyQueue = new List<Gem>();
         // Go through gems listed to be destroyed
         foreach (int[] coord in gemsToDestroy)
         {
             Gem gem = gemColumns[coord[0]][coord[1]];
+            destroyQueue.Add(gem);
+        }
+        foreach (Gem gem in destroyQueue)
+        {
             // No need to check if gem was already destroyed, as this will not raise an error
             // Remove list element
             gemColumns[gem.GetCol()].Remove(gem);
